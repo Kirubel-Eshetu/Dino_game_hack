@@ -7,5 +7,6 @@ Runner.protoype.gameOver = function(){    // gameOver function was overridden (r
 
 // If you want to setup the speed of the dinosaur
 
-Runner.instance_.setSpeed(2500);          //setup the speed of the dinosaur to any number. Beware that all obstacles will be cleared in this case (no obstacle will be in the game)
-Runnver.instance_.setSpeed
+Runner.instance_.setSpeed(2500);         /* setup the speed of the dinosaur to any number. Beware that all obstacles will be cleared 
+                                          in this case (no obstacle will be in the game) */
+Runnver.instance_.setSpeed(-1);         //Make the dinosur to go backwards
