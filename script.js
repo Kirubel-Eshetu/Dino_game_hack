@@ -1,5 +1,7 @@
 // Code to getinto the dino game in goggle chrome
 
+# Setup the jump Limit
+Runner.instance_.tRex.setJumpVelocity(15);
 var dino = Runner.prototype.gameOver;     // This is the original gameOver function assigned to a variable called dummy
 Runner.protoype.gameOver = function(){    // gameOver function was overridden (replaced) by an empty function having no functionality
   
