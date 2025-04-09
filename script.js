@@ -2,9 +2,10 @@
 
 // The maximum score the code gives you is 999999 before it resets the score to 0.
 // Setup the jump Limit
-Runner.instance_.tRex.setJumpVelocity(15);  // This code sets up the jump limit of the dino in pixels
+Runner.instance_.tRex.setJumpVelocity(15);  
+// This code sets up the jump limit of the dino in pixels
 
-// Modify how fast the dino runs
+Modify how fast the dino runs
 Runner.instance_.setSpeed(2500);        //setup the speed of the dinosaur in pixels per second (px/s)
 Runner.instance_.setSpeed(-1);         //Make the dinosur to go backwards when using negative values
 
