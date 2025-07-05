@@ -9,6 +9,7 @@ Modify how fast the dino runs
 Runner.instance_.setSpeed(2500);        //setup the speed of the dinosaur in pixels per second (px/s)
 Runner.instance_.setSpeed(-1);         //Make the dinosur to go backwards when using negative values
 
+
 // Hack the game ( Make the dinosaur run without being doddged by the obstacles)
 var dino = Runner.prototype.gameOver;     // This is the original gameOver function assigned to a variable called dino
 Runner.protoype.gameOver = function(){    /* gameOver function was overridden (replaced) by an empty function 
